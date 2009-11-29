@@ -98,6 +98,7 @@ article#portfolio section { /*320px de largura cada */
   
   article#portfolio section p {
     line-height: 1.5;
+    font-size: 16px;
   }
   
   article#portfolio section:hover {
