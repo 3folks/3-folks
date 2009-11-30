@@ -1,12 +1,12 @@
-/** ESTILOS PADRÃƒO **/
+/** ESTILOS PADRÃO **/
 body {
   line-height: 1.5;
   font-size: 14px;
   font-family: 'Georgia';
-  color: #000;
+  color: #EEE;
   padding: 0;
   margin: 0;
-  background: #000;
+  background: #222;
 }
 
 /** CONTAINER **/
@@ -21,15 +21,25 @@ div#container {
 header {
   display: block;
   width: 100%;
+  background: #4A105C;
+  border-bottom: 5px solid #364C0D;
+  float: left;
 }
 
+  header h1 {
+    float: left;
+    font-size: 180%;
+  }
+  
+  header div {
+    margin: 0 auto;
+    width: 960px;
+  }
+  
 /** HEADER > NAV **/
 nav {
   display: block;
-  width: 100%;
-  border-top: 5px solid #051E21;
-  border-bottom: 5px solid #051E21;
-  background: #210A30;
+  float: right;
 }
 
   nav ul {
@@ -46,17 +56,17 @@ nav {
       nav ul li a {
         font-weight: bold;
         font-size: 180%;
-        text-shadow: 1px 1px 1px #2A0D3D; /* Mudar para a cor externa do inset (pouco mais claro que o background) */
+        text-shadow: 2px 2px 1px #000; /* Mudar para a cor externa do inset (pouco mais claro que o background) */
         text-decoration: none;
         color: #FFF;
         margin: 0;
       }
       
       nav ul li a:hover {
-        color: #FFAD4E;
+        color: #72A810;
       }
 
-/** SECTION **/
+/** ARTICLE **/
 article {
   display: block;
   width: 960px;
@@ -74,33 +84,31 @@ article#portfolio section { /*320px de largura cada */
   padding: 20px;
   margin: 0;
   background: transparent;
-  border: 2px solid #000;
+  border: 2px solid #222;
 }
 
   article#portfolio section h1 {
-    font-size: 130%;
+    font-size: 110%;
     font-weight: bold;
-    background: #F2AC58;
-    margin: 0;
-    padding: 0 0.2em;
-    
   }
 
   article#portfolio section img {
-    width: 274px;
-    opacity: 0.7;
-    border: 1px solid #F2AC58;
+    width: 100%;
   }
   
   article#portfolio section p {
-    display: none;
+    line-height: 1.5;
   }
   
-  article#portfolio section:hover img, article#portfolio section:hover p {
-    opacity: 1;
+  article#portfolio section:hover {
+    background: #72A810;
   }
   
-  
+  article#portfolio section:hover p {
+    text-shadow: 1px 1px 1px #000;
+  }
+
+
 /** LISTA DE PROJETOS **/
 article#projetos section {
   
