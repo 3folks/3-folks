@@ -8,28 +8,14 @@
   <script type="text/javascript" src="javascripts/html5.js"></script>
 </head>
 <body>
-	<?php include 'headr.html'; ?>
+	<?php include 'header.html'; ?>
     
     <article id="contato">
       
     </article>
     
+    <?php include 'footer.html'; ?>
     
-    
-    <footer>
-      <p>contato@3folks.com</p>
-    </footer>
+
 </body>
 </html>
-
-<script type="text/javascript">
-  $('#dragme').bind('dragstart', function(){
-    console.log('dragstart');
-  });
-  
-  $('img#drop').bind('dragover', function(){return false});
-  
-  $('img').bind('drop', function(){
-    console.log('drop');
-  });
-</script>
