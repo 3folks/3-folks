@@ -1,3 +1,5 @@
+@include url(reset.css);
+
 /** ESTILOS PADRÃO **/
 body {
   line-height: 1.5;
