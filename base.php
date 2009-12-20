@@ -2,7 +2,7 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8">
-    <title><?= $title . "3Folks" ?></title>
+    <title><?= $title . " - 3Folks" ?></title>
     <link rel="stylesheet" type="text/css" href="stylesheets/base.css" media="all">
     <script type="text/javascript" src="javascripts/html5.js"></script>
   </head>
