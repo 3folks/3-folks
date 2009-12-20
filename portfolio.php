@@ -1,4 +1,4 @@
-<? $title = "Portfolio"; include('header.html') ?>
+<? $title = "Portfolio"; include('base.php') ?>
 
   <article id="portfolio">
     <section>
