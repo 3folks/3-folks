@@ -110,6 +110,12 @@ article#portfolio section { /*320px de largura cada */
     text-shadow: 1px 1px 1px #000;
   }
 
+/* CONTATO*/
+
+	article#contato {
+		display:block;
+		padding-top: 150px;
+	}
 
 /** LISTA DE PROJETOS **/
 article#projetos section {

@@ -1,20 +1,11 @@
-﻿<!DOCTYPE HTML>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <title>3Folks</title>
-  <link rel="stylesheet" type="text/css" href="stylesheets/base.css" media="all">
-  <script type="text/javascript" src="javascripts/jquery.js"></script>
-  <script type="text/javascript" src="javascripts/html5.js"></script>
-</head>
-<body>
-	<?php include 'header.html'; ?>
+﻿
+<? $title = "Contato"; include('header.html') ?>
     
     <article id="contato">
-      
+      Quer entrar em contato conosco? Envie-nos um e-mail para contato@3folks.com.br
     </article>
     
-    <?php include 'footer.html'; ?>
+    <? include 'footer.html'; ?>
     
 
 </body>
