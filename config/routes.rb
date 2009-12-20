@@ -1,7 +1,7 @@
 ActionController::Routing::Routes.draw do |map|
   map.about 'quem_somos', :controller => "application", :action => "about"
-  map.about 'portfolio', :controller => "application", :action => "portfolio" 
-  map.about 'contato', :controller => "application", :action => "contact"
+  map.portfolio 'portfolio', :controller => "application", :action => "portfolio" 
+  map.contact 'contato', :controller => "application", :action => "contact"
   # The priority is based upon order of creation: first created -> highest priority.
 
   # Sample of regular route:
