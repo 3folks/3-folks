@@ -77,6 +77,6 @@
     </section>
   </article>
 
-  <? include('footer.php') ?>
+  <? include('footer.html') ?>
 </body>
 </html>
