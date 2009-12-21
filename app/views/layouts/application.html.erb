@@ -3,21 +3,24 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8">
-    <title><%= yield :page_title %> - 3Folks</title>
+
     <link rel="stylesheet" type="text/css" href="stylesheets/base.css" media="all">
     <script type="text/javascript" src="javascripts/html5.js"></script>
+
+    <title><%= yield :page_title %> - 3Folks</title>  
   </head>
   <body>
     <header>
-      <div>
-        <img src="images/logo.png" alt="3Folks">
+      <div>                                                        	
+	      <%= image_tag "logo.png", :alt => "3Folks", :size => "90x40" %>
+
         <nav>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Quem Somos</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Projetos</a></li>
-            <li><a href="#">Contato</a></li>
+          <ul>                                                                        
+						<li><%= link_to "Home", root_path %></li>
+						<li><%= link_to "Quem Somos", about_path %></li>
+						<li><%= link_to "Portfólio", portfolio_path %></li>
+						<li><%= link_to "Open Source", open_source_projects_path %></li>
+						<li><%= link_to "Contato", contact_path %></li>
           </ul>
         </nav>
       </div>
