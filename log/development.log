@@ -276,3 +276,93 @@ Processing ApplicationController#portfolio (for 127.0.0.1 at 2009-12-20 21:47:10
 Rendering template within layouts/application
 Rendering application/portfolio
 Completed in 95ms (View: 93, DB: 0) | 200 OK [http://localhost/portfolio]
+
+
+Processing ApplicationController#portfolio (for 127.0.0.1 at 2009-12-20 21:57:01) [GET]
+Rendering template within layouts/application
+Rendering application/portfolio
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/portfolio]
+
+
+Processing ApplicationController#portfolio (for 127.0.0.1 at 2009-12-20 22:20:50) [GET]
+Rendering template within layouts/application
+Rendering application/portfolio
+Completed in 13ms (View: 10, DB: 0) | 200 OK [http://localhost/portfolio]
+
+
+Processing ApplicationController#portfolio (for 127.0.0.1 at 2009-12-20 22:25:02) [GET]
+Rendering template within layouts/application
+Rendering application/portfolio
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/portfolio]
+
+
+Processing ApplicationController#portfolio (for 127.0.0.1 at 2009-12-20 22:25:13) [GET]
+Rendering template within layouts/application
+Rendering application/portfolio
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/portfolio]
+
+
+Processing ApplicationController#portfolio (for 127.0.0.1 at 2009-12-20 22:27:39) [GET]
+Rendering template within layouts/application
+Rendering application/portfolio
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/portfolio]
+
+
+Processing ApplicationController#portfolio (for 127.0.0.1 at 2009-12-20 22:27:52) [GET]
+Rendering template within layouts/application
+Rendering application/portfolio
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/portfolio]
+
+
+Processing ApplicationController#portfolio (for 127.0.0.1 at 2009-12-20 22:28:27) [GET]
+Rendering template within layouts/application
+Rendering application/portfolio
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/portfolio]
+
+
+Processing ApplicationController#portfolio (for 127.0.0.1 at 2009-12-20 22:28:37) [GET]
+Rendering template within layouts/application
+Rendering application/portfolio
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/portfolio]
+
+
+Processing ApplicationController#portfolio (for 127.0.0.1 at 2009-12-20 22:28:44) [GET]
+Rendering template within layouts/application
+Rendering application/portfolio
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/portfolio]
+
+
+Processing ApplicationController#portfolio (for 127.0.0.1 at 2009-12-20 22:29:01) [GET]
+Rendering template within layouts/application
+Rendering application/portfolio
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/portfolio]
+
+
+Processing ApplicationController#portfolio (for 127.0.0.1 at 2009-12-20 22:29:02) [GET]
+Rendering template within layouts/application
+Rendering application/portfolio
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/portfolio]
+
+
+Processing ApplicationController#portfolio (for 127.0.0.1 at 2009-12-20 22:29:17) [GET]
+Rendering template within layouts/application
+Rendering application/portfolio
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/portfolio]
+
+
+Processing ApplicationController#portfolio (for 127.0.0.1 at 2009-12-20 22:29:21) [GET]
+Rendering template within layouts/application
+Rendering application/portfolio
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/portfolio]
+
+
+Processing ApplicationController#portfolio (for 127.0.0.1 at 2009-12-20 22:29:27) [GET]
+Rendering template within layouts/application
+Rendering application/portfolio
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/portfolio]
+
+
+Processing ApplicationController#portfolio (for 127.0.0.1 at 2009-12-20 22:32:34) [GET]
+Rendering template within layouts/application
+Rendering application/portfolio
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/portfolio]

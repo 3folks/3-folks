@@ -30,7 +30,7 @@ header {
 
   header h1 {
     float: left;
-    font-size: 180%;
+    margin: 0;
   }
   
   header div {
@@ -51,13 +51,13 @@ nav {
   
     nav ul li {
       display: inline;
-      padding: 0.1em 1.1em;
+      padding: 0.1em 0.6em;
       margin: 0;
     }
     
       nav ul li a {
-        font-weight: 900;
-        font-size: 210%;
+        font-weight: bold;
+        font-size: 120%;
         text-shadow: 1px 1px 1px rgba(255,255,255, 0.55); /* Mudar para a cor externa do inset (pouco mais claro que o background) */
         text-decoration: none;
         color: #000;
